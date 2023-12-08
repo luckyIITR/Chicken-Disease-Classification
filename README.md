@@ -12,3 +12,5 @@
 7. Update the pipeline
 8. Update the main.py
 9. Update the dvc.yaml
+
+Private repositories uri : 169523520935.dkr.ecr.eu-north-1.amazonaws.com/chicken_project

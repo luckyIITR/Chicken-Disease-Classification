@@ -19,7 +19,7 @@ class PredictionPipeline:
         result = np.argmax(model.predict(test_image), axis=1)
         print(result)
 
-        if result[0] == 1:
+        if result[0] > 0.5:
             prediction = 'Healthy'
             return [{"image": prediction}]
         else:
